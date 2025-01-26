@@ -35,13 +35,13 @@ jobs:
             clipboard: '["mac"]'
     with:
       board: '["seeeduino_xiao_ble"]'
-      shield: '["pipar_sool_dongle", "pipar_sool_dongle prospector_adapter","pipar_sool_left","pipar_sool_right"]'
+      shield: '["pipar_sool_dongle prospector_adapter","pipar_sool_left","pipar_sool_right"]'
       custom_config: ${{ matrix.config.custom_config }}
       alphas: ${{ matrix.config.alphas }}
       clipboard: ${{ matrix.config.clipboard }}
       kconfig: '["CONFIG_ZMK_POINTING=y"]'
       branches: '["zmkfirmware/zmk/main"]'
-      modules: '["rasmuskoit/prospector-zmk-module/main"]'
+      modules: '["carrefinho/prospector-zmk-module/main"]'
   
   merge:
     runs-on: ubuntu-latest
