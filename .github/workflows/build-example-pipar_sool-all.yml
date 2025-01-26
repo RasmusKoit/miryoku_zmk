@@ -15,22 +15,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - custom_config: '["#define MIRYOKU_TIMELESS_HRM"]'
+          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
             alphas: '["dvorak"]'
             clipboard: '["default"]'
-          - custom_config: '["#define MIRYOKU_TIMELESS_HRM"]'
+          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
             alphas: '["qwerty"]'
             clipboard: '["default"]'
-          - custom_config: '["#define MIRYOKU_TIMELESS_HRM"]'
+          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
             alphas: '["colemakdh"]'
             clipboard: '["default"]'
-          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_CLIPBOARD_MAC"]'
+          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_CLIPBOARD_MAC\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
             alphas: '["dvorak"]'
             clipboard: '["mac"]'
-          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_CLIPBOARD_MAC"]'
+          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_CLIPBOARD_MAC\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
             alphas: '["qwerty"]'
             clipboard: '["mac"]'
-          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_CLIPBOARD_MAC"]'
+          - custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_CLIPBOARD_MAC\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
             alphas: '["colemakdh"]'
             clipboard: '["mac"]'
     with:
