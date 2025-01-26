@@ -35,7 +35,7 @@ jobs:
             clipboard: '["mac"]'
     with:
       board: '["seeeduino_xiao_ble"]'
-      shield: '[pipar_sool_dongle", "pipar_sool_dongle prospector_adapter","pipar_sool_left","pipar_sool_right"]'
+      shield: '["pipar_sool_dongle", "pipar_sool_dongle prospector_adapter","pipar_sool_left","pipar_sool_right"]'
       custom_config: ${{ matrix.config.custom_config }}
       alphas: ${{ matrix.config.alphas }}
       clipboard: ${{ matrix.config.clipboard }}
