@@ -10,6 +10,7 @@ jobs:
     with:
       board: '["seeeduino_xiao_ble"]'
       shield: '["pipar_sool_dongle prospector_adapter", "pipar_sool_dongle","pipar_sool_left","pipar_sool_right"]'
-      modules: '["rasmuskoit/prospector-zmk-module/main"]'
+      modules: '["rasmuskoit/prospector-zmk-module/dev"]'
       custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
+      kconfig: '["CONFIG_PROSPECTOR_MINIMAL=y"]'
       
