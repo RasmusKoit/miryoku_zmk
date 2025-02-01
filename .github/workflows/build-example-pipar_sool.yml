@@ -10,3 +10,6 @@ jobs:
     with:
       board: '["seeeduino_xiao_ble"]'
       shield: '["pipar_sool_dongle","pipar_sool_left","pipar_sool_right"]'
+      custom_config: '["#define MIRYOKU_TIMELESS_HRM"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
