@@ -12,4 +12,4 @@ jobs:
       shield: '["pipar_sool_dongle prospector_adapter", "pipar_sool_dongle","pipar_sool_left","pipar_sool_right"]'
       modules: '["rasmuskoit/prospector-zmk-module/dev"]'
       custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
-      kconfig: '["CONFIG_ZMK_POINTING=y", "CONFIG_ZMK_USB_LOGGING=y"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'
