@@ -2,6 +2,6 @@
 # https://github.com/manna-harbour/miryoku
 
 outboard_repository=RasmusKoit/pipar
-outboard_ref=master
+outboard_ref=display
 outboard_from=config/boards/shields/pipar_sool
 outboard_to=boards/shields/pipar_sool
