@@ -10,5 +10,5 @@ jobs:
     with:
       board: '["seeeduino_xiao_ble"]'
       shield: '["pipar_sool_dongle dongle_screen", "pipar_sool_dongle", "pipar_sool_left", "pipar_sool_right"]'
-      modules: '["janpfischer/zmk-dongle-screen/main"]'
+      modules: '["rasmuskoit/zmk-dongle-screen/main"]'
       custom_config: '["#define MIRYOKU_TIMELESS_HRM\n#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
