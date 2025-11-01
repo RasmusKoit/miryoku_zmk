@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-outboard_repository=RasmusKoit/pipar
-outboard_ref=master
-outboard_from=config/boards/piparkeyboards/pipar_point
+outboard_repository=RasmusKoit/zmk-keyboard-pipar
+outboard_ref=main
+outboard_from=boards/piparkeyboards/pipar_point
 outboard_to=boards/arm/pipar_point
