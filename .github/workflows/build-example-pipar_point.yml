@@ -13,4 +13,4 @@ jobs:
       alphas: '["colemakdh"]'
       clipboard: '["default"]'
       kconfig: '["CONFIG_ZMK_POINTING=y"]'
-      # branches: '["petejohanson/zmk/core/move-to-zephyr-4-1"]'
+      branches: '["petejohanson/zmk/core/move-to-zephyr-4-1"]'
