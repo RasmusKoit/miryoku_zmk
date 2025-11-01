@@ -8,7 +8,7 @@ jobs:
     uses: ./.github/workflows/pipar-main.yml
     secrets: inherit
     with:
-      board: '["pipar_point_left","pipar_point_right"]'
+      board: '["pipar_point_left_3_0_0","pipar_point_right_3_0_0"]'
       custom_config: '["#define MIRYOKU_TIMELESS_HRM"]'
       alphas: '["colemakdh"]'
       clipboard: '["default"]'
