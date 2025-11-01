@@ -1,0 +1,16 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build Example Pipar Sool'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/pipar-main.yml
+    secrets: inherit
+    with:
+      shield: '["pipar_point_left","pipar_point_right"]'
+      custom_config: '["#define MIRYOKU_TIMELESS_HRM"]'
+      alphas: '["colemakdh"]'
+      clipboard: '["default"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'
+      branches: '["petejohanson/zmk/core/move-to-zephyr-4-1"]'
